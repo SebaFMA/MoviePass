@@ -131,8 +131,8 @@ public class MainActivity extends AppCompatActivity {
                         MainActivity.this,
                         EntradaActivity.class
                 );
-
-        // Enviar datos personales
+        // Hola muhndo
+        // Enviar datos personale
         intent.putExtra("nombre", nombre);
         intent.putExtra("apellido", apellido);
         intent.putExtra("rut", rut);
