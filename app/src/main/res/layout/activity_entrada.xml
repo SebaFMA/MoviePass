@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,6 +19,7 @@
             android:layout_marginTop="24dp"
             android:gravity="center"
             android:text="MoviePass"
+			android:textColor="#FFFFFF"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -26,6 +29,7 @@
             android:layout_marginBottom="28dp"
             android:gravity="center"
             android:text="Tu entrada"
+			android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -35,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="Nombre:"
+			android:textColor="#FFFFFF"
             android:textSize="17sp" />
 
         <TextView
@@ -43,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="Apellido:"
+			android:textColor="#FFFFFF"
             android:textSize="17sp" />
 
         <TextView
@@ -51,6 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="RUT:"
+			android:textColor="#FFFFFF"
             android:textSize="17sp" />
 
         <TextView
@@ -59,6 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:text="Correo:"
+			android:textColor="#FFFFFF"
             android:textSize="17sp" />
 
         <TextView
@@ -67,6 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="Película:"
+			android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <TextView
@@ -75,6 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="Horario:"
+			android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <TextView
@@ -83,6 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="14dp"
             android:text="Entradas:"
+			android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <TextView
@@ -91,6 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:text="Total:"
+			android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -99,6 +111,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Volver" />
+			
+        <TextView
+            android:id="@+id/txtFooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Desarrollado por Sebastián Maldonado"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
 
     </LinearLayout>
 

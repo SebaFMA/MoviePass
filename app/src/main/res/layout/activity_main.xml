@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,6 +21,7 @@
             android:layout_marginBottom="6dp"
             android:gravity="center"
             android:text="MoviePass"
+			android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:textStyle="bold" />
 
@@ -29,12 +32,14 @@
             android:layout_marginBottom="24dp"
             android:gravity="center"
             android:text="Reserva tu entrada"
+			android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Datos del cliente"
+			android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -45,7 +50,10 @@
             android:layout_height="wrap_content"
             android:hint="Nombre"
             android:inputType="textPersonName"
-            android:maxLength="15" />
+            android:maxLength="15"
+			android:textColor="#FFFFFF"
+            android:textColorHint="#D0D0D0" />
+			
 
         <EditText
             android:id="@+id/edtApellido"
@@ -53,7 +61,9 @@
             android:layout_height="wrap_content"
             android:hint="Apellido"
             android:inputType="textPersonName"
-            android:maxLength="20" />
+            android:maxLength="20"
+			android:textColor="#FFFFFF"
+            android:textColorHint="#D0D0D0" />
 
         <EditText
             android:id="@+id/edtRut"
@@ -61,7 +71,9 @@
             android:layout_height="wrap_content"
             android:hint="RUT (Ej: 12.345.678-9)"
             android:inputType="text"
-            android:maxLength="12" />
+            android:maxLength="12"
+			android:textColor="#FFFFFF"
+            android:textColorHint="#D0D0D0" />
 
         <EditText
             android:id="@+id/edtCorreo"
@@ -70,12 +82,15 @@
             android:hint="Correo electrónico"
             android:inputType="textEmailAddress"
             android:maxLength="50"
-            android:layout_marginBottom="24dp" />
+            android:layout_marginBottom="24dp"
+			android:textColor="#FFFFFF"
+            android:textColorHint="#D0D0D0" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Selecciona una película"
+			android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -91,19 +106,25 @@
                 android:id="@+id/rbSpiderman"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Spider-Man: Brand New Day" />
+                android:text="Spider-Man: Brand New Day"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
             <RadioButton
                 android:id="@+id/rbCoyote"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Coyote vs. Acme" />
+                android:text="Coyote vs. Acme"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
             <RadioButton
                 android:id="@+id/rbNiuLai"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Niu Lai" />
+                android:text="Niu Lai"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
         </RadioGroup>
 
@@ -111,6 +132,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Selecciona un horario"
+			android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -127,20 +149,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="17:00"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
             <RadioButton
                 android:id="@+id/rbHora1930"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="19:30"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
             <RadioButton
                 android:id="@+id/rbHora22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="22:00" />
+                android:text="22:00"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
         </RadioGroup>
 
@@ -148,6 +176,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cantidad de entradas"
+			android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -164,27 +193,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
             <RadioButton
                 android:id="@+id/rbCantidad2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
             <RadioButton
                 android:id="@+id/rbCantidad3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
             <RadioButton
                 android:id="@+id/rbCantidad4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4" />
+                android:text="4"
+				android:textColor="#FFFFFF"
+				android:buttonTint="#FFFFFF" />
 
         </RadioGroup>
 
@@ -195,6 +232,17 @@
             android:text="Generar entrada"
             android:onClick="enviarDatos" />
 
+        <TextView
+            android:id="@+id/txtFooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Desarrollado por Sebastián Maldonado"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+	
     </LinearLayout>
-
+	
 </ScrollView>
